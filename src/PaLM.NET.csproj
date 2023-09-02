@@ -7,7 +7,7 @@
 	<PropertyGroup>
 		<PackageId>PaLM.NET</PackageId>
 		<Title>PaLM.NET</Title>
-		<Version>0.1.0</Version>
+		<Version>0.1.0-alpha</Version>
 		<Authors>Will 保哥</Authors>
 		<Company>Duotify Inc.</Company>
 		<Product>PaLM.NET</Product>
