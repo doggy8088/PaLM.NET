@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>PaLM.NET</PackageId>
+		<Title>PaLM.NET</Title>
+		<Version>0.1.0</Version>
+		<Authors>Will 保哥</Authors>
+		<Company>Duotify Inc.</Company>
+		<Product>PaLM.NET</Product>
+		<Description>A PaLM API wrapper for .NET Standard 2.0</Description>
+		<Copyright>Copyright © 2023 by Will 保哥</Copyright>
+		<PackageProjectUrl>https://github.com/doggy8088/PaLM.NET</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageTags>palm dotnet csharp</PackageTags>
+		<PackageReleaseNotes>https://github.com/doggy8088/PaLM.NET/releases</PackageReleaseNotes>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<RepositoryUrl>https://github.com/doggy8088/PaLM.NET</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<IncludeSymbols>true</IncludeSymbols>
+		<IncludeSource>true</IncludeSource>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Text.Json" Version="7.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="images\icon.png" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+
+</Project>
