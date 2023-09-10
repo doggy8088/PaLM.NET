@@ -1,8 +1,12 @@
 # PaLM.NET
 
-A PaLM API wrapper for .NET that supports .NET Standard 2.0.
+A PaLM API (in Generative AI) wrapper for .NET that supports .NET Standard 2.0.
 
 ## Usage
+
+### Get an API key
+
+You have to [get an API key](https://makersuite.google.com/app/apikey) from [MakerSuite](https://makersuite.google.com/) first.
 
 ### Get PaLMClient instance
 
